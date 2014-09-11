@@ -47,6 +47,10 @@
     }
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation {
+    return YES;
+}
+
 - (IBAction)titleFieldTextChanged:(id)sender {
     self.detailItem.data.title = self.titleField.text;
 }
@@ -63,6 +67,21 @@
 - (void)rateView:(RWTRateView *)rateView ratingDidChange:(float)rating {
     self.detailItem.data.rating = rating;
 }
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+    [self configureView];
+    self.title = @"Check Rating";
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 
 - (IBAction)addPictureTapped:(id)sender {
     if (self.picker == nil) {
@@ -89,24 +108,6 @@
     self.detailItem.fullImage = fullImage;
     self.detailItem.thumbImage = thumbImage;
     self.imageView.image = fullImage;
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation {
-    return YES;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
-    self.title = @"Check Rating";
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

@@ -30,11 +30,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-   // self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
-//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-//    self.navigationItem.rightBarButtonItem = addButton;
-    
     self.title = @"Ice Rating";
     
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
@@ -101,7 +96,7 @@
 }
 
 - (void)addTapped:(id)sender {
-    RWTIceDoc *newDoc = [[RWTIceDoc alloc] initWithTitle:@"New Friend" rating:0 thumbImage:nil fullImage:nil];
+    RWTIceDoc *newDoc = [[RWTIceDoc alloc] initWithTitle:@"New Candidate" rating:0 thumbImage:nil fullImage:nil];
     [_frds addObject:newDoc];
     
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_frds.count-1 inSection:0];
