@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76150C5119C1A82E00308147 /* Bam40.png in Resources */ = {isa = PBXBuildFile; fileRef = 76150C4F19C1A82E00308147 /* Bam40.png */; };
+		76150C5219C1A82E00308147 /* eve40.png in Resources */ = {isa = PBXBuildFile; fileRef = 76150C5019C1A82E00308147 /* eve40.png */; };
+		76150C5419C1AD1A00308147 /* eve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76150C5319C1AD1A00308147 /* eve.jpg */; };
+		76150C5619C1AE4C00308147 /* bamby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76150C5519C1AE4C00308147 /* bamby.jpg */; };
+		766DB68619C1C7F300F90756 /* eve1.png in Resources */ = {isa = PBXBuildFile; fileRef = 766DB68519C1C7F300F90756 /* eve1.png */; };
+		76CF7AEA19BF62B1001026AC /* IceIcon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF7AE919BF62B1001026AC /* IceIcon120.png */; };
+		76CF7AED19BF6356001026AC /* IceIcon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF7AEB19BF6356001026AC /* IceIcon80.png */; };
+		76CF7AEE19BF6356001026AC /* IceIcon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF7AEC19BF6356001026AC /* IceIcon58.png */; };
+		76CF7AF419BF6BA8001026AC /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CF7AF319BF6BA8001026AC /* book.png */; };
+		C00546C319C17D9800FF2614 /* RWTRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = C00546C119C17D9800FF2614 /* RWTRateView.m */; };
+		C00546C719C17DE200FF2614 /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = C00546C519C17DE200FF2614 /* RWTUIImageExtras.m */; };
+		C01BA61019BF3DD40020144A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01BA60F19BF3DD40020144A /* Foundation.framework */; };
+		C01BA61219BF3DD40020144A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01BA61119BF3DD40020144A /* CoreGraphics.framework */; };
+		C01BA61419BF3DD40020144A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01BA61319BF3DD40020144A /* UIKit.framework */; };
+		C01BA61A19BF3DD40020144A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01BA61819BF3DD40020144A /* InfoPlist.strings */; };
+		C01BA61C19BF3DD40020144A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BA61B19BF3DD40020144A /* main.m */; };
+		C01BA62019BF3DD40020144A /* RWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BA61F19BF3DD40020144A /* RWTAppDelegate.m */; };
+		C01BA62319BF3DD40020144A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01BA62119BF3DD40020144A /* Main.storyboard */; };
+		C01BA62619BF3DD40020144A /* RWTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BA62519BF3DD40020144A /* RWTMasterViewController.m */; };
+		C01BA62919BF3DD40020144A /* RWTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BA62819BF3DD40020144A /* RWTDetailViewController.m */; };
+		C01BA62B19BF3DD40020144A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01BA62A19BF3DD40020144A /* Images.xcassets */; };
+		C01BA63219BF3DD50020144A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01BA63119BF3DD50020144A /* XCTest.framework */; };
+		C01BA63319BF3DD50020144A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01BA60F19BF3DD40020144A /* Foundation.framework */; };
+		C01BA63419BF3DD50020144A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01BA61319BF3DD40020144A /* UIKit.framework */; };
+		C01BA63C19BF3DD50020144A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01BA63A19BF3DD50020144A /* InfoPlist.strings */; };
+		C01BA63E19BF3DD50020144A /* iceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BA63D19BF3DD50020144A /* iceTests.m */; };
+		C01BA64B19BF3F730020144A /* RWTIceData.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BA64A19BF3F730020144A /* RWTIceData.m */; };
+		C01BA64E19BF40450020144A /* RWTIceDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = C01BA64D19BF40450020144A /* RWTIceDoc.m */; };
+		C01BA65019BF43860020144A /* Ice.png in Resources */ = {isa = PBXBuildFile; fileRef = C01BA64F19BF43860020144A /* Ice.png */; };
+		C09363B119C1B52E003F5B83 /* film.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09363B019C1B52E003F5B83 /* film.jpg */; };
+		C09363B419C1B55B003F5B83 /* tanA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09363B219C1B55B003F5B83 /* tanA.jpg */; };
+		C09363B519C1B55B003F5B83 /* tanO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09363B319C1B55B003F5B83 /* tanO.jpg */; };
+		C09363B719C1B578003F5B83 /* nonie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09363B619C1B578003F5B83 /* nonie.jpg */; };
+		C09363B919C1B586003F5B83 /* phee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09363B819C1B586003F5B83 /* phee.jpg */; };
+		C09363BB19C1B58F003F5B83 /* ping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09363BA19C1B58F003F5B83 /* ping.jpg */; };
+		C09363BF19C1BF53003F5B83 /* splash screen.png in Resources */ = {isa = PBXBuildFile; fileRef = C09363BE19C1BF53003F5B83 /* splash screen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01BA63519BF3DD50020144A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01BA60419BF3DD40020144A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01BA60B19BF3DD40020144A;
+			remoteInfo = ice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76150C4F19C1A82E00308147 /* Bam40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bam40.png; sourceTree = "<group>"; };
+		76150C5019C1A82E00308147 /* eve40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eve40.png; sourceTree = "<group>"; };
+		76150C5319C1AD1A00308147 /* eve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eve.jpg; sourceTree = "<group>"; };
+		76150C5519C1AE4C00308147 /* bamby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bamby.jpg; sourceTree = "<group>"; };
+		766DB68519C1C7F300F90756 /* eve1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eve1.png; sourceTree = "<group>"; };
+		76CF7AE919BF62B1001026AC /* IceIcon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IceIcon120.png; sourceTree = "<group>"; };
+		76CF7AEB19BF6356001026AC /* IceIcon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IceIcon80.png; sourceTree = "<group>"; };
+		76CF7AEC19BF6356001026AC /* IceIcon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IceIcon58.png; sourceTree = "<group>"; };
+		76CF7AF319BF6BA8001026AC /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		C00546C119C17D9800FF2614 /* RWTRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTRateView.m; sourceTree = "<group>"; };
+		C00546C219C17D9800FF2614 /* RWTRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTRateView.h; sourceTree = "<group>"; };
+		C00546C519C17DE200FF2614 /* RWTUIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTUIImageExtras.m; sourceTree = "<group>"; };
+		C00546C619C17DE200FF2614 /* RWTUIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTUIImageExtras.h; sourceTree = "<group>"; };
+		C01BA60C19BF3DD40020144A /* ICE Rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ICE Rating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01BA60F19BF3DD40020144A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C01BA61119BF3DD40020144A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C01BA61319BF3DD40020144A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C01BA61719BF3DD40020144A /* ICE Rating-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICE Rating-Info.plist"; sourceTree = "<group>"; };
+		C01BA61919BF3DD40020144A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C01BA61B19BF3DD40020144A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C01BA61D19BF3DD40020144A /* ICE Rating-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICE Rating-Prefix.pch"; sourceTree = "<group>"; };
+		C01BA61E19BF3DD40020144A /* RWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTAppDelegate.h; sourceTree = "<group>"; };
+		C01BA61F19BF3DD40020144A /* RWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTAppDelegate.m; sourceTree = "<group>"; };
+		C01BA62219BF3DD40020144A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01BA62419BF3DD40020144A /* RWTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTMasterViewController.h; sourceTree = "<group>"; };
+		C01BA62519BF3DD40020144A /* RWTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTMasterViewController.m; sourceTree = "<group>"; };
+		C01BA62719BF3DD40020144A /* RWTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTDetailViewController.h; sourceTree = "<group>"; };
+		C01BA62819BF3DD40020144A /* RWTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTDetailViewController.m; sourceTree = "<group>"; };
+		C01BA62A19BF3DD40020144A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C01BA63019BF3DD50020144A /* ICE RatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ICE RatingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01BA63119BF3DD50020144A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C01BA63919BF3DD50020144A /* ICE RatingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICE RatingTests-Info.plist"; sourceTree = "<group>"; };
+		C01BA63B19BF3DD50020144A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C01BA63D19BF3DD50020144A /* iceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iceTests.m; sourceTree = "<group>"; };
+		C01BA64919BF3F730020144A /* RWTIceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTIceData.h; sourceTree = "<group>"; };
+		C01BA64A19BF3F730020144A /* RWTIceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTIceData.m; sourceTree = "<group>"; };
+		C01BA64C19BF40450020144A /* RWTIceDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTIceDoc.h; sourceTree = "<group>"; };
+		C01BA64D19BF40450020144A /* RWTIceDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTIceDoc.m; sourceTree = "<group>"; };
+		C01BA64F19BF43860020144A /* Ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ice.png; sourceTree = "<group>"; };
+		C09363B019C1B52E003F5B83 /* film.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = film.jpg; sourceTree = "<group>"; };
+		C09363B219C1B55B003F5B83 /* tanA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tanA.jpg; sourceTree = "<group>"; };
+		C09363B319C1B55B003F5B83 /* tanO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tanO.jpg; sourceTree = "<group>"; };
+		C09363B619C1B578003F5B83 /* nonie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nonie.jpg; sourceTree = "<group>"; };
+		C09363B819C1B586003F5B83 /* phee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phee.jpg; sourceTree = "<group>"; };
+		C09363BA19C1B58F003F5B83 /* ping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ping.jpg; sourceTree = "<group>"; };
+		C09363BE19C1BF53003F5B83 /* splash screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash screen.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01BA60919BF3DD40020144A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01BA61219BF3DD40020144A /* CoreGraphics.framework in Frameworks */,
+				C01BA61419BF3DD40020144A /* UIKit.framework in Frameworks */,
+				C01BA61019BF3DD40020144A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01BA62D19BF3DD50020144A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01BA63219BF3DD50020144A /* XCTest.framework in Frameworks */,
+				C01BA63419BF3DD50020144A /* UIKit.framework in Frameworks */,
+				C01BA63319BF3DD50020144A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00546BF19C17D1700FF2614 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				766DB68519C1C7F300F90756 /* eve1.png */,
+				C09363BE19C1BF53003F5B83 /* splash screen.png */,
+				C09363BA19C1B58F003F5B83 /* ping.jpg */,
+				C09363B819C1B586003F5B83 /* phee.jpg */,
+				C09363B619C1B578003F5B83 /* nonie.jpg */,
+				C09363B219C1B55B003F5B83 /* tanA.jpg */,
+				C09363B319C1B55B003F5B83 /* tanO.jpg */,
+				C09363B019C1B52E003F5B83 /* film.jpg */,
+				76150C4F19C1A82E00308147 /* Bam40.png */,
+				76150C5319C1AD1A00308147 /* eve.jpg */,
+				76150C5019C1A82E00308147 /* eve40.png */,
+				76CF7AE919BF62B1001026AC /* IceIcon120.png */,
+				76CF7AEB19BF6356001026AC /* IceIcon80.png */,
+				76CF7AEC19BF6356001026AC /* IceIcon58.png */,
+				76150C5519C1AE4C00308147 /* bamby.jpg */,
+				76CF7AF319BF6BA8001026AC /* book.png */,
+				C01BA64F19BF43860020144A /* Ice.png */,
+			);
+			name = Pics;
+			sourceTree = "<group>";
+		};
+		C00546C019C17D4A00FF2614 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C00546C119C17D9800FF2614 /* RWTRateView.m */,
+				C00546C219C17D9800FF2614 /* RWTRateView.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C00546C419C17DBD00FF2614 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C00546C519C17DE200FF2614 /* RWTUIImageExtras.m */,
+				C00546C619C17DE200FF2614 /* RWTUIImageExtras.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C01BA60319BF3DD40020144A = {
+			isa = PBXGroup;
+			children = (
+				C00546C419C17DBD00FF2614 /* Helpers */,
+				C00546C019C17D4A00FF2614 /* Views */,
+				C00546BF19C17D1700FF2614 /* Pics */,
+				C01BA61519BF3DD40020144A /* ice */,
+				C01BA63719BF3DD50020144A /* iceTests */,
+				C01BA60E19BF3DD40020144A /* Frameworks */,
+				C01BA60D19BF3DD40020144A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01BA60D19BF3DD40020144A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01BA60C19BF3DD40020144A /* ICE Rating.app */,
+				C01BA63019BF3DD50020144A /* ICE RatingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01BA60E19BF3DD40020144A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C01BA60F19BF3DD40020144A /* Foundation.framework */,
+				C01BA61119BF3DD40020144A /* CoreGraphics.framework */,
+				C01BA61319BF3DD40020144A /* UIKit.framework */,
+				C01BA63119BF3DD50020144A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01BA61519BF3DD40020144A /* ice */ = {
+			isa = PBXGroup;
+			children = (
+				C01BA64819BF3EEF0020144A /* Model */,
+				C01BA64719BF3E870020144A /* GUI */,
+				C01BA62A19BF3DD40020144A /* Images.xcassets */,
+				C01BA61619BF3DD40020144A /* Supporting Files */,
+			);
+			path = ice;
+			sourceTree = "<group>";
+		};
+		C01BA61619BF3DD40020144A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01BA61719BF3DD40020144A /* ICE Rating-Info.plist */,
+				C01BA61819BF3DD40020144A /* InfoPlist.strings */,
+				C01BA61B19BF3DD40020144A /* main.m */,
+				C01BA61D19BF3DD40020144A /* ICE Rating-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C01BA63719BF3DD50020144A /* iceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C01BA63D19BF3DD50020144A /* iceTests.m */,
+				C01BA63819BF3DD50020144A /* Supporting Files */,
+			);
+			path = iceTests;
+			sourceTree = "<group>";
+		};
+		C01BA63819BF3DD50020144A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01BA63919BF3DD50020144A /* ICE RatingTests-Info.plist */,
+				C01BA63A19BF3DD50020144A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C01BA64719BF3E870020144A /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				C01BA61E19BF3DD40020144A /* RWTAppDelegate.h */,
+				C01BA61F19BF3DD40020144A /* RWTAppDelegate.m */,
+				C01BA62119BF3DD40020144A /* Main.storyboard */,
+				C01BA62419BF3DD40020144A /* RWTMasterViewController.h */,
+				C01BA62519BF3DD40020144A /* RWTMasterViewController.m */,
+				C01BA62719BF3DD40020144A /* RWTDetailViewController.h */,
+				C01BA62819BF3DD40020144A /* RWTDetailViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		C01BA64819BF3EEF0020144A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C01BA64919BF3F730020144A /* RWTIceData.h */,
+				C01BA64A19BF3F730020144A /* RWTIceData.m */,
+				C01BA64C19BF40450020144A /* RWTIceDoc.h */,
+				C01BA64D19BF40450020144A /* RWTIceDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01BA60B19BF3DD40020144A /* ICE Rating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01BA64119BF3DD50020144A /* Build configuration list for PBXNativeTarget "ICE Rating" */;
+			buildPhases = (
+				C01BA60819BF3DD40020144A /* Sources */,
+				C01BA60919BF3DD40020144A /* Frameworks */,
+				C01BA60A19BF3DD40020144A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ICE Rating";
+			productName = ice;
+			productReference = C01BA60C19BF3DD40020144A /* ICE Rating.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01BA62F19BF3DD50020144A /* ICE RatingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01BA64419BF3DD50020144A /* Build configuration list for PBXNativeTarget "ICE RatingTests" */;
+			buildPhases = (
+				C01BA62C19BF3DD50020144A /* Sources */,
+				C01BA62D19BF3DD50020144A /* Frameworks */,
+				C01BA62E19BF3DD50020144A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01BA63619BF3DD50020144A /* PBXTargetDependency */,
+			);
+			name = "ICE RatingTests";
+			productName = iceTests;
+			productReference = C01BA63019BF3DD50020144A /* ICE RatingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01BA60419BF3DD40020144A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RWT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.bambanapt;
+				TargetAttributes = {
+					C01BA62F19BF3DD50020144A = {
+						TestTargetID = C01BA60B19BF3DD40020144A;
+					};
+				};
+			};
+			buildConfigurationList = C01BA60719BF3DD40020144A /* Build configuration list for PBXProject "ICE Rating" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01BA60319BF3DD40020144A;
+			productRefGroup = C01BA60D19BF3DD40020144A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01BA60B19BF3DD40020144A /* ICE Rating */,
+				C01BA62F19BF3DD50020144A /* ICE RatingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01BA60A19BF3DD40020144A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09363B919C1B586003F5B83 /* phee.jpg in Resources */,
+				76CF7AED19BF6356001026AC /* IceIcon80.png in Resources */,
+				C01BA62B19BF3DD40020144A /* Images.xcassets in Resources */,
+				C01BA61A19BF3DD40020144A /* InfoPlist.strings in Resources */,
+				C01BA62319BF3DD40020144A /* Main.storyboard in Resources */,
+				76CF7AEE19BF6356001026AC /* IceIcon58.png in Resources */,
+				C09363B719C1B578003F5B83 /* nonie.jpg in Resources */,
+				76150C5419C1AD1A00308147 /* eve.jpg in Resources */,
+				C09363BF19C1BF53003F5B83 /* splash screen.png in Resources */,
+				C09363B119C1B52E003F5B83 /* film.jpg in Resources */,
+				C01BA65019BF43860020144A /* Ice.png in Resources */,
+				76CF7AEA19BF62B1001026AC /* IceIcon120.png in Resources */,
+				76150C5219C1A82E00308147 /* eve40.png in Resources */,
+				76150C5619C1AE4C00308147 /* bamby.jpg in Resources */,
+				76150C5119C1A82E00308147 /* Bam40.png in Resources */,
+				C09363BB19C1B58F003F5B83 /* ping.jpg in Resources */,
+				766DB68619C1C7F300F90756 /* eve1.png in Resources */,
+				C09363B419C1B55B003F5B83 /* tanA.jpg in Resources */,
+				76CF7AF419BF6BA8001026AC /* book.png in Resources */,
+				C09363B519C1B55B003F5B83 /* tanO.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01BA62E19BF3DD50020144A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01BA63C19BF3DD50020144A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01BA60819BF3DD40020144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01BA64E19BF40450020144A /* RWTIceDoc.m in Sources */,
+				C00546C319C17D9800FF2614 /* RWTRateView.m in Sources */,
+				C00546C719C17DE200FF2614 /* RWTUIImageExtras.m in Sources */,
+				C01BA62019BF3DD40020144A /* RWTAppDelegate.m in Sources */,
+				C01BA64B19BF3F730020144A /* RWTIceData.m in Sources */,
+				C01BA61C19BF3DD40020144A /* main.m in Sources */,
+				C01BA62619BF3DD40020144A /* RWTMasterViewController.m in Sources */,
+				C01BA62919BF3DD40020144A /* RWTDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01BA62C19BF3DD50020144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01BA63E19BF3DD50020144A /* iceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01BA63619BF3DD50020144A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01BA60B19BF3DD40020144A /* ICE Rating */;
+			targetProxy = C01BA63519BF3DD50020144A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01BA61819BF3DD40020144A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01BA61919BF3DD40020144A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C01BA62119BF3DD40020144A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01BA62219BF3DD40020144A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C01BA63A19BF3DD50020144A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01BA63B19BF3DD50020144A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01BA63F19BF3DD50020144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01BA64019BF3DD50020144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01BA64219BF3DD50020144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ice/ICE Rating-Prefix.pch";
+				INFOPLIST_FILE = "ice/ICE Rating-Info.plist";
+				PRODUCT_NAME = "ICE Rating";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01BA64319BF3DD50020144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ice/ICE Rating-Prefix.pch";
+				INFOPLIST_FILE = "ice/ICE Rating-Info.plist";
+				PRODUCT_NAME = "ICE Rating";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01BA64519BF3DD50020144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ice.app/ice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ice/ice-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iceTests/ICE RatingTests-Info.plist";
+				PRODUCT_NAME = "ICE RatingTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C01BA64619BF3DD50020144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ice.app/ice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ice/ice-Prefix.pch";
+				INFOPLIST_FILE = "iceTests/ICE RatingTests-Info.plist";
+				PRODUCT_NAME = "ICE RatingTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01BA60719BF3DD40020144A /* Build configuration list for PBXProject "ICE Rating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01BA63F19BF3DD50020144A /* Debug */,
+				C01BA64019BF3DD50020144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01BA64119BF3DD50020144A /* Build configuration list for PBXNativeTarget "ICE Rating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01BA64219BF3DD50020144A /* Debug */,
+				C01BA64319BF3DD50020144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01BA64419BF3DD50020144A /* Build configuration list for PBXNativeTarget "ICE RatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01BA64519BF3DD50020144A /* Debug */,
+				C01BA64619BF3DD50020144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01BA60419BF3DD40020144A /* Project object */;
+}

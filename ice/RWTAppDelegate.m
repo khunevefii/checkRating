@@ -16,15 +16,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    RWTIceDoc *frd1 = [[RWTIceDoc alloc] initWithTitle:@"Bam" rating:4 thumbImage:[UIImage imageNamed:@"bamby.jpg"] fullImage:[UIImage imageNamed:@"bamby.jpg"]];
-    RWTIceDoc *frd2 = [[RWTIceDoc alloc] initWithTitle:@"Book" rating:5 thumbImage:[UIImage imageNamed:@"book.png"] fullImage:[UIImage imageNamed:@"book.png"]];
-    RWTIceDoc *frd3 = [[RWTIceDoc alloc] initWithTitle:@"Eve" rating:3 thumbImage:[UIImage imageNamed:@"eve.jpg"] fullImage:[UIImage imageNamed:@"eve.jpg"]];
-    RWTIceDoc *frd4 = [[RWTIceDoc alloc] initWithTitle:@"Film" rating:1 thumbImage:[UIImage imageNamed:@"film.jpg"] fullImage:[UIImage imageNamed:@"film.jpg"]];
-    RWTIceDoc *frd5 = [[RWTIceDoc alloc] initWithTitle:@"Nonie" rating:4 thumbImage:[UIImage imageNamed:@"nonie.jpg"] fullImage:[UIImage imageNamed:@"nonie.jpg"]];
+    RWTIceDoc *frd1 = [[RWTIceDoc alloc] initWithTitle:@"Bam" rating:5 thumbImage:[UIImage imageNamed:@"bamby.jpg"] fullImage:[UIImage imageNamed:@"bamby.jpg"]];
+    RWTIceDoc *frd2 = [[RWTIceDoc alloc] initWithTitle:@"Book" rating:0 thumbImage:[UIImage imageNamed:@"book.png"] fullImage:[UIImage imageNamed:@"book.png"]];
+    RWTIceDoc *frd3 = [[RWTIceDoc alloc] initWithTitle:@"Eve" rating:5 thumbImage:[UIImage imageNamed:@"eve.jpg"] fullImage:[UIImage imageNamed:@"eve.jpg"]];
+    RWTIceDoc *frd4 = [[RWTIceDoc alloc] initWithTitle:@"Film" rating:4 thumbImage:[UIImage imageNamed:@"film.jpg"] fullImage:[UIImage imageNamed:@"film.jpg"]];
+    RWTIceDoc *frd5 = [[RWTIceDoc alloc] initWithTitle:@"Nonie" rating:3 thumbImage:[UIImage imageNamed:@"nonie.jpg"] fullImage:[UIImage imageNamed:@"nonie.jpg"]];
     RWTIceDoc *frd6 = [[RWTIceDoc alloc] initWithTitle:@"Phee" rating:3 thumbImage:[UIImage imageNamed:@"phee.jpg"] fullImage:[UIImage imageNamed:@"phee.jpg"]];
-    RWTIceDoc *frd7 = [[RWTIceDoc alloc] initWithTitle:@"Ping" rating:5 thumbImage:[UIImage imageNamed:@"ping.jpg"] fullImage:[UIImage imageNamed:@"ping.jpg"]];
-    RWTIceDoc *frd8 = [[RWTIceDoc alloc] initWithTitle:@"TanA" rating:1 thumbImage:[UIImage imageNamed:@"tanA.jpg"] fullImage:[UIImage imageNamed:@"tanA.jpg"]];
-    RWTIceDoc *frd9 = [[RWTIceDoc alloc] initWithTitle:@"TanO" rating:4 thumbImage:[UIImage imageNamed:@"tanO.jpg"] fullImage:[UIImage imageNamed:@"tanO.jpg"]];
+    RWTIceDoc *frd7 = [[RWTIceDoc alloc] initWithTitle:@"Ping" rating:0 thumbImage:[UIImage imageNamed:@"ping.jpg"] fullImage:[UIImage imageNamed:@"ping.jpg"]];
+    RWTIceDoc *frd8 = [[RWTIceDoc alloc] initWithTitle:@"TanA" rating:2 thumbImage:[UIImage imageNamed:@"tanA.jpg"] fullImage:[UIImage imageNamed:@"tanA.jpg"]];
+    RWTIceDoc *frd9 = [[RWTIceDoc alloc] initWithTitle:@"TanO" rating:5 thumbImage:[UIImage imageNamed:@"tanO.jpg"] fullImage:[UIImage imageNamed:@"tanO.jpg"]];
     NSMutableArray *frds = [NSMutableArray arrayWithObjects:frd1, frd2, frd3, frd4, frd5, frd6, frd7, frd8, frd9, nil];
     
     UINavigationController *navController = (UINavigationController *) self.window.rootViewController;
